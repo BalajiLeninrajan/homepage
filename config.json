@@ -50,8 +50,13 @@
   "projects": [
     {
       "title": "TapCode",
-      "description": "Speach to morse code translator, encoded through vibrations.",
+      "description": "Speach to morse code translator app, encoded through vibrations.",
       "link": "https://github.com/BalajiLeninrajan/tap_code"
+    },
+    {
+      "title": "IMACS",
+      "description": "Integrated Monitoring And Command Station for Ardupilot drones.",
+      "link": "https://github.com/UWARG/IMACS-2"
     },
     {
       "title": "ShowerScribe",
