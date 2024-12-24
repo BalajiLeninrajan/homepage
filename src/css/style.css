@@ -41,6 +41,7 @@ body {
 
 #window {
     overflow-x: scroll;
+    scrollbar-width: none;
 }
 
 main {
