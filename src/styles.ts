@@ -29,7 +29,7 @@ import command from "../config.json" assert { type: "json" };
   } else {
     style.sheet.insertRule(`#bars {background: ${command.colors.background}}`);
     style.sheet.insertRule(
-      `main {border-color: ${command.colors.border.color}}`,
+      `main {border-color: ${command.colors.border.color}, overflow: scroll}`,
     );
     style.sheet.insertRule(
       `#bar-1 {background: ${command.colors.border.color}; color: ${command.colors.foreground}}`,
