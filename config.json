@@ -1,0 +1,89 @@
+{
+  "ascii": [
+    "██████╗  █████╗ ██╗      █████╗      ██╗██╗",
+    "██╔══██╗██╔══██╗██║     ██╔══██╗     ██║██║",
+    "██████╔╝███████║██║     ███████║     ██║██║",
+    "██╔══██╗██╔══██║██║     ██╔══██║██   ██║██║",
+    "██████╔╝██║  ██║███████╗██║  ██║╚█████╔╝██║",
+    "╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚════╝ ╚═╝",
+    "██╗     ███████╗███╗   ██╗██╗███╗   ██╗██████╗  █████╗      ██╗ █████╗ ███╗   ██╗",
+    "██║     ██╔════╝████╗  ██║██║████╗  ██║██╔══██╗██╔══██╗     ██║██╔══██╗████╗  ██║",
+    "██║     █████╗  ██╔██╗ ██║██║██╔██╗ ██║██████╔╝███████║     ██║███████║██╔██╗ ██║",
+    "██║     ██╔══╝  ██║╚██╗██║██║██║╚██╗██║██╔══██╗██╔══██║██   ██║██╔══██║██║╚██╗██║",
+    "███████╗███████╗██║ ╚████║██║██║ ╚████║██║  ██║██║  ██║╚█████╔╝██║  ██║██║ ╚████║",
+    "╚══════╝╚══════╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝"
+  ],
+  "title": "BalajiLeninrajan",
+  "username": "guest@",
+  "hostname": "balajileninrajan.github.io",
+  "social": {
+    "email": "bleninra@uwaterloo.ca",
+    "github": "balajiLeninrajan",
+    "linkedin": "balaji-leninrajan"
+  },
+  "experience": [
+    {
+      "title": "Software Engineer Intern",
+      "company": "Shopify",
+      "date": "January 2025 - April 2025",
+      "link": "https://shopify.com"
+    },
+    {
+      "title": "ERP/Web Development Intern",
+      "company": "YTY Group",
+      "date": "May 2024 - August 2024",
+      "link": "https://ytygroup.com.my/"
+    },
+    {
+      "title": "Project Manager",
+      "company": "Waterloo Aerial Robotics Group (WARG)",
+      "date": "January 2024 - Present",
+      "link": "https://uwarg.com"
+    },
+    {
+      "title": "Technical Lead",
+      "company": "AWS Cloud Club (UW + GTA)",
+      "date": "June 2024 - December 2024",
+      "link": "https://www.linkedin.com/company/aws-cloud-club-uw/"
+    }
+  ],
+  "projects": [
+    {
+      "title": "TapCode",
+      "description": "Speach to morse code translator, encoded through vibrations.",
+      "link": "https://github.com/BalajiLeninrajan/tap_code"
+    },
+    {
+      "title": "ShowerScribe",
+      "description": "Voice-enabled Personal Digital Assistant to record shower thoughts.",
+      "link": "https://github.com/BalajiLeninrajan/Shower-Scribe"
+    },
+    {
+      "title": "Tic-Tac-Toe AI Agent",
+      "description": "Adversarial search algorithm for Tic-Tac-Toe in C.",
+      "link": "https://github.com/BalajiLeninrajan/tictactoe"
+    }
+  ],
+  "colors": {
+    "background": "#1c1c1c",
+    "foreground": "#FFFFFF",
+    "banner": "#12488b",
+    "border": {
+      "visible": true,
+      "color": "#303030"
+    },
+    "prompt": {
+      "default": "#FFFFFF",
+      "user": "#26a269",
+      "host": "#26a269",
+      "input": "#FFFFFF"
+    },
+    "link": {
+      "text": "#2aa1b3",
+      "highlightText": "#0C0623"
+    },
+    "commands": {
+      "textColor": "#a2734c"
+    }
+  }
+}
