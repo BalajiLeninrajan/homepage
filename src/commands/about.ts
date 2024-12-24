@@ -5,15 +5,15 @@ const createAbout = (): string[] => {
 
   const SPACE = "&nbsp;";
 
-  const EMAIL = "Email";
-  const GITHUB = "Github";
-  const LINKEDIN = "Linkedin";
-  const RESUME = "Resume";
+  const EMAIL = "'email'";
+  const GITHUB = "'github'";
+  const LINKEDIN = "'linkedin'";
+  const RESUME = "'resume'";
 
-  const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;
-  const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
-  const linkedin = `<i class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
-  const resume = `<i class='fa-solid fa-file'></i> ${RESUME}`;
+  const email = `<i class='fa-solid fa-envelope'></i> <span class="command">${EMAIL}<span class="command">`;
+  const github = `<i class='fa-brands fa-github'></i> <span class="command">${GITHUB}<span class="command">`;
+  const linkedin = `<i class='fa-brands fa-linkedin'></i> <span class="command">${LINKEDIN}<span class="command">`;
+  const resume = `<i class='fa-solid fa-file'></i> <span class="command">${RESUME}<span class="command">`;
   const image = `<img src='https://raw.githubusercontent.com/BalajiLeninrajan/homepage/cf668bf57f3a50c6bf3b9e9fb899652bea6af6bc/res/logo.png' width="100px">`;
   let string = "";
 
