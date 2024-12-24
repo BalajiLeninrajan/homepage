@@ -14,7 +14,7 @@ const createAbout = (): string[] => {
   const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
   const linkedin = `<i class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
   const resume = `<i class='fa-solid fa-file'></i> ${RESUME}`;
-  const image = `<img src='./res/logo.png' width="100px">`;
+  const image = `<img src='https://raw.githubusercontent.com/BalajiLeninrajan/homepage/cf668bf57f3a50c6bf3b9e9fb899652bea6af6bc/res/logo.png' width="100px">`;
   let string = "";
 
   about.push("<br>");
@@ -51,7 +51,7 @@ const createAbout = (): string[] => {
   string += SPACE.repeat(2);
   string += resume;
   string += SPACE.repeat(17 - RESUME.length);
-  string += `<a target='_blank' href='./res/resume.pdf'>download</a>`;
+  string += `<a target='_blank' href='https://raw.githubusercontent.com/BalajiLeninrajan/homepage/cf668bf57f3a50c6bf3b9e9fb899652bea6af6bc/res/resume.pdf'>download</a>`;
   about.push(string);
 
   about.push("<br>");
