@@ -46,7 +46,7 @@ main {
     border: var(--border) solid 2px;
     border-radius: 5px;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
