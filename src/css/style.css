@@ -198,3 +198,16 @@ a:hover {
         margin-left: 8px;
     }
 }
+
+@media screen and (max-width: 1000px) and (orientation: portrait) {
+    html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
