@@ -2,8 +2,8 @@ const helpObj = {
   commands: [
     ["'help'", "Display this help menu."],
     ["'about'", "Learn about me."],
-    ["'experiences'", "Serious proffesional stuff."],
-    ["'projects'", "Unproffesional serious stuff."],
+    ["'experiences'", "Serious professional stuff."],
+    ["'projects'", "Unprofessional serious stuff."],
     ["'resume'", "Download my resume."],
     ["'email'", "Send me an Email."],
     ["'linkedin'", "Connect on LinkedIn."],
