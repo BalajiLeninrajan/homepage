@@ -24,7 +24,7 @@ const createAbout = (): string[] => {
     'Software Engineering Student @ <a href="www.uwaterloo.ca">University of Waterloo</a>',
   );
   about.push(
-    'Incoming Software Engineering Intern @ <a href="www.shopify.com">Shopify</a>',
+    'Ex Production Engineering Intern @ <a href="www.shopify.com">Shopify</a>',
   );
   about.push("<br>");
   string += SPACE.repeat(2);
@@ -37,14 +37,14 @@ const createAbout = (): string[] => {
   string += SPACE.repeat(2);
   string += github;
   string += SPACE.repeat(17 - GITHUB.length);
-  string += `<a target='_blank' href='https://github.com/${command.social.github}'>github/${command.social.github}</a>`;
+  string += `<a target='_blank' href='https://github.com/${command.social.github}'>${command.social.github}</a>`;
   about.push(string);
 
   string = "";
   string += SPACE.repeat(2);
   string += linkedin;
   string += SPACE.repeat(17 - LINKEDIN.length);
-  string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>linkedin/${command.social.linkedin}</a>`;
+  string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>${command.social.linkedin}</a>`;
   about.push(string);
 
   string = "";

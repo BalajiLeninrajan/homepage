@@ -14,8 +14,8 @@
     "╚══════╝╚══════╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝"
   ],
   "title": "BalajiLeninrajan",
-  "username": "guest@",
-  "hostname": "balajileninrajan.github.io",
+  "username": "guest",
+  "hostname": "balajileninrajan.dev",
   "social": {
     "email": "bleninra@uwaterloo.ca",
     "github": "balajiLeninrajan",
@@ -23,22 +23,28 @@
   },
   "experience": [
     {
+      "title": "Production Engineer Intern",
+      "company": "Shopify",
+      "date": "September 2025 - December 2025",
+      "link": "https://shopify.com"
+    },
+    {
       "title": "Software Engineer Intern",
       "company": "Shopify",
       "date": "January 2025 - April 2025",
       "link": "https://shopify.com"
     },
     {
+      "title": "Autonomy Lead",
+      "company": "Waterloo Aerial Robotics Group (WARG)",
+      "date": "January 2024 - Present",
+      "link": "https://uwarg.com"
+    },
+    {
       "title": "ERP/Web Development Intern",
       "company": "YTY Group",
       "date": "May 2024 - August 2024",
       "link": "https://ytygroup.com.my/"
-    },
-    {
-      "title": "Project Manager",
-      "company": "Waterloo Aerial Robotics Group (WARG)",
-      "date": "January 2024 - Present",
-      "link": "https://uwarg.com"
     },
     {
       "title": "Technical Lead",
@@ -49,6 +55,21 @@
   ],
   "projects": [
     {
+      "title": "maram",
+      "description": "CLI tool for managing git worktree workflows with variant branches and Zellij integration.",
+      "link": "https://github.com/BalajiLeninrajan/maram"
+    },
+    {
+      "title": "Linguini",
+      "description": "A fun word game with friends 🧑‍🤝‍🧑.",
+      "link": "https://github.com/BalajiLeninrajan/linguini"
+    },
+    {
+      "title": "Skill Issue",
+      "description": "Therapeutic service for job seekers who prefer to skip the wait for rejection.",
+      "link": "https://github.com/BalajiLeninrajan/skill-issue"
+    },
+    {
       "title": "TapCode",
       "description": "Speach to morse code translator app, encoded through vibrations.",
       "link": "https://github.com/BalajiLeninrajan/tap_code"
@@ -56,7 +77,7 @@
     {
       "title": "IMACS",
       "description": "Integrated Monitoring And Command Station for Ardupilot drones.",
-      "link": "https://github.com/UWARG/IMACS-2"
+      "link": "https://github.com/UWARG/IMACS-3.0"
     },
     {
       "title": "ShowerScribe",
@@ -70,25 +91,26 @@
     }
   ],
   "colors": {
-    "background": "#1c1c1c",
-    "foreground": "#FFFFFF",
-    "banner": "#12488b",
+    "background": "#1e1e2e",
+    "foreground": "#cdd6f4",
+    "banner": "#cba6f7",
     "border": {
       "visible": true,
-      "color": "#303030"
+      "color": "#181825"
     },
     "prompt": {
-      "default": "#FFFFFF",
-      "user": "#26a269",
-      "host": "#26a269",
-      "input": "#FFFFFF"
+      "default": "#cdd6f4",
+      "user": "#cdd6f4",
+      "host": "#89b4fa",
+      "at": "#cba6f7",
+      "path": "#a6e3a1",
+      "input": "#cdd6f4"
     },
     "link": {
-      "text": "#2aa1b3",
-      "highlightText": "#0C0623"
+      "text": "#74c7ec"
     },
     "commands": {
-      "textColor": "#a2734c"
+      "textColor": "#a6e3a1"
     }
   }
 }

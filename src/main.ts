@@ -20,10 +20,8 @@ let userInput: string;
 const WRITELINESCOPY = mutWriteLines;
 const TERMINAL = document.getElementById("terminal");
 const USERINPUT = document.getElementById("user-input") as HTMLInputElement;
-const PRE_HOST = document.getElementById("pre-host");
-const PRE_USER = document.getElementById("pre-user");
-const HOST = document.getElementById("host");
-const USER = document.getElementById("user");
+const PRE_HOST = document.querySelectorAll("#pre-host");
+const PRE_USER = document.querySelectorAll("#pre-user");
 const PROMPT = document.getElementById("prompt");
 const COMMANDS = [
   "help",
@@ -204,23 +202,21 @@ function displayText(item: string, idx: number) {
 }
 
 const initEventListeners = () => {
-  if (HOST) {
-    HOST.innerText = command.hostname;
-  }
+  PRE_HOST.forEach((el) => {
+    el.textContent = command.hostname;
+  });
 
-  if (USER) {
-    USER.innerText = command.username;
-  }
-
-  if (PRE_HOST) {
-    PRE_HOST.innerText = command.hostname;
-  }
-
-  if (PRE_USER) {
-    PRE_USER.innerText = command.username;
-  }
+  PRE_USER.forEach((el) => {
+    el.textContent = command.username;
+  });
 
   window.addEventListener("load", () => {
+    // Simulate running the banner command on load
+    const div = document.createElement("div");
+    div.innerHTML = `<span id="prompt">${PROMPT?.innerHTML}</span> <span class='output'>banner</span>`;
+    if (mutWriteLines?.parentNode) {
+      mutWriteLines.parentNode.insertBefore(div, mutWriteLines);
+    }
     writeLines(BANNER);
   });
 

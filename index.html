@@ -1,61 +1,52 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="src/css/css-reset.css" />
-        <link rel="stylesheet" href="src/css/style.css" />
-        <link rel="icon" type="image/x-png" href="/res/logo.png" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0 maximum-scale=1"
-        />
-        <title>Balaji Leninrajan</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/css/css-reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="icon" type="image/x-png" href="/res/logo.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=1"
+    />
+    <title>Balaji Leninrajan</title>
+  </head>
 
-    <body>
-        <main id="main">
-            <div id="bars">
-                <div id="bar-1">BalajiLeninrajan.x64_x86</div>
-            </div>
-            <br />
-            <div id="window">
-                <div id="terminal">
-                    <div>
-                        <span id="prompt"
-                            ><span id="pre-user"></span
-                            ><span id="pre-host"></span>:<span id="pre-path"
-                                >~</span
-                            >$
-                        </span>
-                    </div>
-                    <!-- command output will be inserted before #write-lines-->
-                    <a id="write-lines"></a>
-                </div>
-                <div id="input-line">
-                    <div>
-                        <p id="input-hidden">
-                            <span id="prompt"
-                                ><span id="user"></span
-                                ><span id="host"></span>:<span id="pre-path"
-                                    >~</span
-                                >$
-                            </span>
-                            <input
-                                id="user-input"
-                                type="text"
-                                enterkeyhint="Enter"
-                                spellcheck="false"
-                                autocapitalize="none"
-                                autocomplete="off"
-                            />
-                        </p>
-                    </div>
-                    <br />
-                </div>
-            </div>
-        </main>
-    </body>
+  <body>
+    <main id="main">
+      <div id="bars">
+        <div id="bar-1">BalajiLeninrajan | ~</div>
+      </div>
+      <br />
+      <div id="window">
+        <div id="terminal">
+          <!-- command output will be inserted before #write-lines-->
+          <a id="write-lines"></a>
+        </div>
+        <div id="input-line">
+          <div>
+            <p id="input-hidden">
+              <span id="prompt">
+                <span id="pre-user"></span><span id="pre-at">@</span
+                ><span id="pre-host"></span>
+                <span id="pre-path">~</span>
+              </span>
+              <input
+                id="user-input"
+                type="text"
+                enterkeyhint="Enter"
+                spellcheck="false"
+                autocapitalize="none"
+                autocomplete="off"
+              />
+            </p>
+          </div>
+          <br />
+        </div>
+      </div>
+    </main>
+  </body>
 
-    <script type="module" src="./src/styles.ts"></script>
-    <script type="module" src="./src/main.ts"></script>
+  <script type="module" src="./src/styles.ts"></script>
+  <script type="module" src="./src/main.ts"></script>
 </html>

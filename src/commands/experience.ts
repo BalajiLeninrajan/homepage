@@ -10,7 +10,7 @@ const createExperience = (): string[] => {
 
   command.experience.forEach((ele) => {
     let link = `<a href="${ele.link}" target="_blank">${ele.company}</a>`;
-    let date = `<span class="command">${ele.date}</span>`;
+    let date = `<span class="command" style="color: #a6adc8;">${ele.date}</span>`;
     string += SPACE.repeat(2);
     string += link;
     string += SPACE.repeat(40 - ele.company.length);
