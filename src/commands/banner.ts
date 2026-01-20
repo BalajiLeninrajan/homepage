@@ -3,9 +3,9 @@ import command from "../../config.json" assert { type: "json" };
 const createBanner = (): string[] => {
   const banner: string[] = [];
   banner.push("<br>");
+  const asciiLines: string[] = [];
   command.ascii.forEach((ele) => {
     let bannerString = "";
-    //this is for the ascii art
     for (let i = 0; i < ele.length; i++) {
       if (ele[i] === " ") {
         bannerString += "&nbsp;";
@@ -13,10 +13,11 @@ const createBanner = (): string[] => {
         bannerString += ele[i];
       }
     }
-
-    let eleToPush = `<pre>${bannerString}</pre>`;
-    banner.push(eleToPush);
+    asciiLines.push(`<pre>${bannerString}</pre>`);
   });
+
+  banner.push(`<div class="banner-scroll">${asciiLines.join("")}</div>`);
+
   banner.push("<br>");
   banner.push(
     "Welcome to balajileninrajan.dev v1.0.0" +

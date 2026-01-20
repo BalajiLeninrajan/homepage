@@ -79,6 +79,11 @@ pre {
   font-family: "ascii", monospace;
 }
 
+.banner-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 input {
   font-family: "JetBrains Mono", monospace;
   padding: 0px;
