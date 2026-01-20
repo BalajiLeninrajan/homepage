@@ -70,6 +70,11 @@
       "link": "https://github.com/BalajiLeninrajan/skill-issue"
     },
     {
+      "title": "RAIInet",
+      "description": "Stratego in C++, but nerdier",
+      "link": "https://github.com/BalajiLeninrajan/RAIInet"
+    },
+    {
       "title": "TapCode",
       "description": "Speach to morse code translator app, encoded through vibrations.",
       "link": "https://github.com/BalajiLeninrajan/tap_code"
