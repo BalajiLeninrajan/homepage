@@ -76,7 +76,8 @@ pre {
   padding: 0;
   line-height: 20px !important;
   color: #ff9951;
-  font-family: "ascii", monospace;
+  font-family: "JetBrains Mono", monospace;
+  white-space: pre;
 }
 
 .banner-scroll {
